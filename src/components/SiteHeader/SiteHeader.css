@@ -1,0 +1,81 @@
+/* SiteHeader.css */
+.site-header {
+    background-color: #666;
+    /* Gray background color */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.site-search {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-icon-container {
+    background-color: #666;
+    /* Match the search bar's background color */
+    padding: 8px;
+    /* Add padding to give space around the icon */
+    border-radius: 4px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.site-nav a:hover {
+    color: #ff6b81;
+}
+
+.user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.user-action {
+    background-color: #888;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 24px;
+    height: 24px;
+}

@@ -1,24 +1,15 @@
-import React, { useState } from 'react';
-import LoginForm from './Login/login'; // Update the import path
-import SignupForm from './Signup/signup'; // Update the import path
-import './App.css';
+import React from 'react';
+import SiteHeader from './components/SiteHeader/Site_Header'; // Import the SiteHeader component
 
 function App() {
-  const [showLogin, setShowLogin] = useState(true);
-
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="aash-cart-title">AASH Cart</h1>
-        {showLogin ? (
-          <LoginForm />
-        ) : (
-          <SignupForm />
-        )}
-        <button onClick={() => setShowLogin(!showLogin)}>
-          {showLogin ? 'Switch to Sign Up' : 'Switch to Login'}
-        </button>
-      </header>
+      <SiteHeader />
+
+      <div className="content">
+        <h1>Welcome to Aash Cart</h1>
+        <p>Find the best products and brands here.</p>
+      </div>
     </div>
   );
 }
