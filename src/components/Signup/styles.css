@@ -1,0 +1,53 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .login-container {
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #b1afaf9e;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    margin-bottom: 8px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+   #name {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #b1afaf9e;
+    width:50%;}
+
+  /* input[type="text"], */
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #b1afaf9e;
+    width:50%;
+  }
+  
+  button[type="submit"] {
+    background-color: #d94d11;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #d94d11;
+  }
