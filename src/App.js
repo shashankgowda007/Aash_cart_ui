@@ -81,20 +81,20 @@
 
 
 // Demo cart
-// import React from 'react';
-// import Cart from './components/democart/Cart'
-// import './components/democart/Cart';
+import React from 'react';
+import Cart from './components/democart/Cart'
+import './components/democart/Cart';
 
-// function App() {
-//     return (
-//         <div className="App">
-//             <Cart/>
-//         </div>
+function App() {
+    return (
+        <div className="App">
+            <Cart/>
+        </div>
         
-//     );
-// }
+    );
+}
 
-// export default App;
+export default App;
 
 
 
