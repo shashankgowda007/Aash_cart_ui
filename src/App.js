@@ -1,3 +1,6 @@
+import React from 'react';
+import Cart from './components/democart/Cart'
+import './components/democart/Cart';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
@@ -55,3 +58,10 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+

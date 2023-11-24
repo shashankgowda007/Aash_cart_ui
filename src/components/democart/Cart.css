@@ -1,0 +1,72 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.shopping-cart-container {
+    position: relative;
+    width: 80%;
+    margin: none;
+}
+
+.shopping-cart {
+    background-color: #fff;
+}
+
+h1 {
+    color: #070707;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50vh; /* Set a minimum height */
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.summary {
+    position: sticky;
+    top: 0;
+    width: 30%;
+    height: 200px; /* Set a specific height */
+    overflow-y: auto; /* Add a scrollbar if the content overflows */
+    margin-left: 10px;
+    border: 1px solid#ddd; 
+    padding: 10px; 
+}
+
+.checkout {
+    background-color: #df6b39; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 1px; 
+    margin-top: 30px;
+    border:none;
+    outline:none; 
+}
+
+button {
+    background-color: #df6b39;
+    color: white;
+    border: none; /* Reset the border */
+    outline: none; /* Reset the outline */
+}
+
+
+
