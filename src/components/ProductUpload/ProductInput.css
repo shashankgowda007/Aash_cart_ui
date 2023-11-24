@@ -1,0 +1,30 @@
+.product-input {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.product-input label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-input input,
+.product-input textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.product-input button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
