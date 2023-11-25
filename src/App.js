@@ -13,12 +13,21 @@ import Shop from './Pages/Shop';
 import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
-import Cart from './Pages/Cart';
+import MainApp from './components/Signup/signup';
+import Demo from './Pages/Demo';
+// import Cart from './Pages/Cart'; 
 
 function App() {
   return (
     <div>
       <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Shop />} />
+          <Route path="/Login" element={<MainApp />} />
+        </Routes>
+      </Router>
+      {/* <Router>
         <Navbar />
         <Hero />
         <Item />
@@ -42,17 +51,14 @@ function App() {
         <br />
         <Footer />
         <Routes>
-          <Route path="/" element={<Shop />} />
           <Route path="/Mens" element={<ShopCategory category="Mens" />} />
           <Route path="/Womens" element={<ShopCategory category="Womens" />} />
           <Route path="/Kids" element={<ShopCategory category="Kids" />} />
-          <Route path="/Product" element={<Product />}>
-            {/* <Route path=':productId' element={<Product/>}/> */}
-          </Route>
-          <Route path="/Cart" element={<Cart />} />
-          {/* <Route path='/Login' element={<LoginSignup/>}/> */}
-        </Routes>
-      </Router>
+          <Route path="/Product" element={<Product />} />
+          <Route path="/Login" element={<Demo />} />
+          {/* <Route path="/Cart" element={<Cart />} /> */}
+      {/* </Routes> */}
+      {/* </Router> */}
     </div>
   );
 }
